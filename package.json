@@ -13,6 +13,7 @@
     "seed": "npm --prefix backend run seed"
   },
   "dependencies": {
-    "concurrently": "^8.2.1"
+    "concurrently": "^8.2.1",
+    "dotenv": "^17.4.2"
   }
 }
