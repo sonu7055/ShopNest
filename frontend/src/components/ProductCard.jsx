@@ -5,7 +5,11 @@ import '../styles/product.css';
 const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
-      <img src={product.imageUrl} alt={product.name} className="product-image" />
+      {/* <img src={product.imageUrl} alt={product.name} className="product-image" /> */}
+
+      {/* New Code  */}
+      <img src={product.images?.[0]?.url} alt={product.name} className="product-image"
+/>
       <div className="product-info">
         <h3>{product.name}</h3>
         <p className="price">₹{product.price}</p>
