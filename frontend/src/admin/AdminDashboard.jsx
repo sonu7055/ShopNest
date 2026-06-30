@@ -26,7 +26,7 @@ const AdminDashboard = () => {
             navigate('/login');
           }
           setStats({ totalOrders: 0, totalProducts: 0, totalUsers: 0, totalRevenue: 0 });
-        }
+        } 
       } catch (error) {
         console.error(error);
       }

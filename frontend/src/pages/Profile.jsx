@@ -36,9 +36,8 @@ const Profile = () => {
       }
     };
     fetchMyOrders();
-  // }, [user, navigate]);
-  }, [user, navigate, logout]);
-
+  }, [user, navigate]);
+ 
   const handleLogout = () => {
     logout();
     navigate('/login');
